@@ -1,4 +1,18 @@
 html {
-	text-align: center;
-	font-family: Helvetica, Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-family: Helvetica, Arial, Helvetica, sans-serif;
+}
+
+#board div {
+    background-color: #000000;
+    border: 1px solid grey;
+    box-sizing: border-box;
+    float: left;
+    width: 24px;
+    height: 24px;
+}
+
+#board {
+    width: calc(26 * 24px);
+    margin: auto;
 }
